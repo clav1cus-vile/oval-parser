@@ -1,0 +1,19 @@
+[
+  {
+    "variable_id": "oval:com.redhat.rhsa:var:20191167001",
+    "variable_version": "643",
+    "variable_comment": "Get saved_entry in /boot/grub2/grubenv",
+    "variable_datatype": "int",
+    "arithmetic": {
+      "arithmetic_operation": "add",
+      "components": [
+        {
+          "literal_component": "1"
+        },
+        {
+          "object_component": "oval:com.redhat.rhsa:obj:20191167027"
+        }
+      ]
+    }
+  }
+]
